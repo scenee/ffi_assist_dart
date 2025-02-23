@@ -2,12 +2,7 @@ import "dart:typed_data";
 
 extension Equality_Uint8List on Uint8List {
   bool equals(Uint8List other) {
-    if (length != other.length) return false;
-
-    for (int i = 0; i < other.length; i++) {
-      if (this[i] != other[i]) return false;
-    }
-    return true;
+    return memEquals(this, other);
   }
 }
 
