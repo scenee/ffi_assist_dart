@@ -2,7 +2,7 @@
 import "dart:typed_data";
 
 import "package:benchmark_harness/benchmark_harness.dart";
-import "package:ffi_helper/ffi_helper.dart";
+import "package:ffi_assist/ffi_assist.dart";
 
 // Create a new benchmark by extending BenchmarkBase
 class ToBlockedHexStringBenchmark extends BenchmarkBase {

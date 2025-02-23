@@ -1,7 +1,7 @@
-name: ffi_helper
+name: ffi_assist 
 description: A helper library for implementations using dart:ffi
 version: 0.1.0
-repository: https://github.com/scenee/ffi_helper_dart.git
+repository: https://github.com/scenee/ffi_assist.git
 
 environment:
   sdk: ^3.5.3
